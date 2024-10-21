@@ -233,6 +233,39 @@ bool isRedundant(string s)
 
     return false;
 }
+void findNextMin(vector<int> &arr)
+{
+    stack<int> st;
+    st.push(-1);
+
+    for(int i=arr.size()-1; i>=0; i--)
+    {
+        int curr = arr[i];
+        while(st.top() >= curr)
+        {
+            st.pop();
+        }
+        
+        arr[i] = st.top();
+        st.push(curr);
+        
+    }
+}
+void findPrevMin(vector<int> &arr)
+{
+    stack<int> st;
+    st.push(-1);
+    for(int i=0; i<arr.size(); i++)
+    {
+        int curr = arr[i];
+        while(st.top() >= curr)
+        {
+            st.pop();
+        }
+        arr[i] = st.top();
+        st.push(curr);
+    }
+}
 int main()
 {
     // Q1 reverse using stack
@@ -273,15 +306,24 @@ int main()
 
     // Q4 Redundant Parenthesis
 
-    string eq = "((A+(B+C)))";
-    if (isRedundant(eq))
-    {
-        cout << "Yes Redundant Parenthesis present" << endl;
-    }
-    else
-    {
-        cout << "No Redundant Parenthesis present" << endl;
-    }
+    // string eq = "((A+(B+C)))";
+    // if (isRedundant(eq))
+    // {
+    //     cout << "Yes Redundant Parenthesis present" << endl;
+    // }
+    // else
+    // {
+    //     cout << "No Redundant Parenthesis present" << endl;
+    // }
 
+    vector<int> arr = {5, 6, 2, 3, 1, 7};
+    //Q5 Next smaller element
+    // findNextMin(arr);
+    //Q6 Previous Smaller element 
+    findPrevMin(arr);
+
+    for(int ele:arr){
+        cout<<ele<<" ";
+    }
     return 0;
 }
