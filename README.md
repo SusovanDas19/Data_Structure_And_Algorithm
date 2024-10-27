@@ -21,6 +21,7 @@ Data Structures and Algorithms
 |   ├── 🗃️ Array
 |   ├── 🔗 Linked List
 |   ├── 🍔 Stack
+|   ├── 🚶‍♂️🚶‍♀Queue 
 |
 └── Algorithms
     ├── 🚧 Coming Soon
