@@ -5,6 +5,8 @@ Welcome to my Data Structures and Algorithms repository! This repository contain
 ### 📚 Data Structures Covered:
 - 🗃️ Arrays
 - 🔗 Linked Lists
+- 🍔 Stack
+- 🚶‍♂️🚶‍♀Queue
 
 ### 🔍 Algorithms Covered:
 - 🚧 Coming Soon...
@@ -18,10 +20,10 @@ Welcome to my Data Structures and Algorithms repository! This repository contain
 Data Structures and Algorithms
 │
 ├── Data-Structures
-|   ├── 🗃️ Array
-|   ├── 🔗 Linked List
-|   ├── 🍔 Stack
-|   ├── 🚶‍♂️🚶‍♀Queue 
+|   ├── Array
+|   ├── Linked List
+|   ├── Stack
+|   ├── Queue 
 |
 └── Algorithms
     ├── 🚧 Coming Soon
