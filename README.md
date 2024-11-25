@@ -7,6 +7,7 @@ Welcome to my Data Structures and Algorithms repository! This repository contain
 - 🔗 Linked Lists
 - 🍔 Stack
 - 🚶‍♂️🚶‍♀Queue
+- 🌳 Tree
 
 ### 🔍 Algorithms Covered:
 - 🚧 Coming Soon...
@@ -23,7 +24,8 @@ Data Structures and Algorithms
 |   ├── Array
 |   ├── Linked List
 |   ├── Stack
-|   ├── Queue 
+|   ├── Queue
+|   ├── Tree
 |
 └── Algorithms
     ├── 🚧 Coming Soon
