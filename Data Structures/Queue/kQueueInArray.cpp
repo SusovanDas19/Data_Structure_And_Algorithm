@@ -104,7 +104,7 @@ int main()
     cout<<q.pop(0)<<endl; //pop fron 0th queue;
     cout<<q.pop(1)<<endl; //pop fron 0th queue;
     cout<<q.pop(1)<<endl; //pop fron 0th queue;
-    cout<<q.pop(3)<<endl; //pop fron 0th queue;
+    cout<<q.pop(2)<<endl; //pop fron 0th queue;
 
 
     return 0;
