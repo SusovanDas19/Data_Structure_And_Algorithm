@@ -101,10 +101,10 @@ int main()
     cout<<q.push(5,1)<<endl;
     cout<<q.push(6,1)<<endl;
     cout<<q.pop(0)<<endl; //pop fron 0th queue;
-    cout<<q.pop(0)<<endl; //pop fron 0th queue;
-    cout<<q.pop(1)<<endl; //pop fron 0th queue;
-    cout<<q.pop(1)<<endl; //pop fron 0th queue;
-    cout<<q.pop(2)<<endl; //pop fron 0th queue;
+    cout<<q.pop(0)<<endl; 
+    cout<<q.pop(1)<<endl; 
+    cout<<q.pop(1)<<endl; 
+    cout<<q.pop(2)<<endl; 
 
 
     return 0;
