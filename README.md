@@ -27,6 +27,7 @@ Data Structures and Algorithms
 |   ├── Stack
 |   ├── Queue
 |   ├── Tree
+|   ├── Map
 |
 └── Algorithms
     ├── 🚧 Coming Soon
