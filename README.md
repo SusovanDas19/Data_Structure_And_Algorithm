@@ -8,6 +8,7 @@ Welcome to my Data Structures and Algorithms repository! This repository contain
 - 🍔 Stack
 - 🚶‍♂️🚶‍♀Queue
 - 🌳 Tree
+- 🗺️ Map
 
 ### 🔍 Algorithms Covered:
 - 🚧 Coming Soon...
